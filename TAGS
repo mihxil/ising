@@ -1,0 +1,115 @@
+
+ising.cpp,737
+ostream& operator<<(ostream& os 14,282
+ostream& operator<<(ostream& os , const area<floatt,14,282
+void  isingmodel<floatt,30,713
+void  isingmodel<floatt, sitetype>::summarize(30,713
+void isingmodel<floatt,46,1116
+void isingmodel<floatt, sitetype>::MetropolisIteration(46,1116
+void isingmodel<floatt,89,2075
+void isingmodel<floatt, sitetype>::SwendsenWangIteration(89,2075
+void isingmodel<floatt,106,2471
+void isingmodel<floatt,  sitetype>::WolffIteration(106,2471
+area<floatt,162,4281
+area<floatt, sitetype> isingmodel<floatt,162,4281
+area<floatt, sitetype> isingmodel<floatt, sitetype>::JumpsTransverseDirection162,4281
+void isingmodel<floatt,275,8760
+void isingmodel<floatt, sitetype>::TransverseWolffIteration(275,8760
+
+lattice.cpp,0
+
+main.cpp,50
+#define COMPILE_TEMPLATES11,106
+int main(20,349
+
+means.cpp,0
+
+sites.cpp,305
+namespace sitessites4,21
+  rnd::uniform * sitet::draw sites::sitet::draw7,40
+  unsigned sitet::maxindex sites::sitet::maxindex9,78
+  template <int n,sites::n11,111
+  template <int n, class st> unsigned cnD<n,sites::n11,111
+  template <int n, class st> unsigned cnD<n,st>::siz[sites::siz11,111
+
+spins.cpp,135
+namespace spinsspins4,21
+  rnd::uniform* spinbase::draw spins::spinbase::draw14,230
+  template <class floatt spins::floatt18,303
+
+testlat.cpp,143
+template <int n,8,98
+template <int n, class st> int sites::cnD<n,8,98
+template <int n, class st> int sites::cnD<n,st>::siz[8,98
+main(9,155
+
+testsite.cpp,11
+main(5,41
+
+cmdline.h,0
+
+ising_error.h,76
+#define __ISING_ERROR_H__2,26
+  class ising_error : public exception8,100
+
+ising.h,873
+#define _ISING_H__2,19
+template <class floatt,14,138
+typedef enum { metropolis, swendsenwang, wolff, twolff} iterationtype;iterationtype42,839
+template <class floatt,44,911
+  floatt           m_K,50,1004
+  floatt           m_K, m_one_minus_exp;50,1004
+  floatt  m_B,51,1045
+  floatt  m_B, m_Jx,51,1045
+  floatt  m_B, m_Jx, m_exp_kx;51,1045
+  unsigned         m_nit;53,1124
+  rnd::exponential * m_draw;54,1174
+  floatt m_t2p;56,1205
+  static const unsigned m_ncalc 58,1262
+  static const unsigned m_npmax 59,1299
+  blitz::Array<floatt,62,1409
+  blitz::Array<floatt, 1> p;62,1409
+  blitz::Array<floatt,63,1479
+  blitz::Array<floatt, 2> q;63,1479
+  blitz::Array<floatt,64,1508
+  blitz::Array<floatt, 2> pp;64,1508
+  void (isingmodel<floatt,68,1548
+  void Iteration(72,1707
+  inline area<floatt,79,2041
+  isingmodel(82,2184
+  unsigned getnit(107,2951
+
+lattice.h,390
+#define __LATTICE_H_2,21
+class lattice12,160
+template <class site> lattice<site>::lattice(42,870
+template <class site> void lattice<site>::init(59,1204
+template <class site> void lattice<site>::init(66,1386
+void lattice<site>::print(74,1574
+ostream& operator<<(ostream& os,81,1746
+typename site::spintype::spinsum  lattice<site>::nup(88,1857
+ostream&  lattice<site>::sizes(97,2071
+
+means.h,0
+
+rnd.h,22
+#define __RND_H_3,18
+
+sites.h,24
+#define __SITES_H_3,32
+
+spins.h,51
+#define __SPINS_H_3,32
+#define LISTTYPE 154,4064
+
+Makefile,11
+fast 4,40
+
+ising.gnu,75
+set yrange 9,233
+plot 'result' using 1:3 t 'upb' with linespoints,12,456
+
+cmdline.cmdl,15
+float K 7,238
+
+ising.perl,0

@@ -1,0 +1,21 @@
+(0,0,0) Ising model  at K = 0.220000  seed = 0
+(1,1,1) Ising model  at K = 0.220000  seed = 1
+    Q  = 1.000000 +- 0.000000
+(2,2,2) Ising model  at K = 0.220000  seed = 2
+    Q  = 0.685125 +- 0.036919
+(3,3,3) Ising model  at K = 0.220000  seed = 3
+    Q  = 0.643740 +- 0.024290
+(4,4,4) Ising model  at K = 0.220000  seed = 4
+    Q  = 0.627868 +- 0.031911
+(5,5,5) Ising model  at K = 0.220000  seed = 5
+    Q  = 0.611999 +- 0.035463
+(6,6,6) Ising model  at K = 0.220000  seed = 6
+    Q  = 0.624254 +- 0.036376
+(7,7,7) Ising model  at K = 0.220000  seed = 7
+    Q  = 0.611686 +- 0.044892
+(8,8,8) Ising model  at K = 0.220000  seed = 8
+    Q  = 0.598927 +- 0.032691
+(9,9,9) Ising model  at K = 0.220000  seed = 9
+    Q  = 0.603933 +- 0.031624
+(10,10,10) Ising model  at K = 0.220000  seed = 10
+    Q  = 0.577709 +- 0.030804

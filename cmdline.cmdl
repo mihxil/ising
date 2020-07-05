@@ -1,0 +1,19 @@
+//  Emacs, gebruik -*-C++-*- mode voor dit bestand.
+//  commandline options of the ising program
+//  december 1998 - Michiel Meeuwissen
+//  this can be converted to a .h-file by the use of the perl program gencom
+// #define float floatt
+
+float K          = 3.044    "temperature"
+int   sizex      = 10  sx   "size in x direction"
+int   sizey      = 10  sy   "size in y direction"
+int   sizez      = 10  sz   "size in z direction"
+float sizea      = 10  sa  "size in z direction for transverse model"
+int   iterations = 100  i   "number of iterations between measurements"
+unsigned   averagei   = 10   ni  "number of time it is done, to get an ensemble avarage for Q"
+unsigned   averageQ   = 10   nq  "number of time Q is calculated, to get an error estimation"
+int   seed       = 5        "random seed"
+// float t2p        = 1        "quotient between strenght between transverse and other directions"
+float multfac    = 2 mf    "factor to multiply the transverse direction when writing to stdout \nif it can e.g. be the aspectratio of a character on your screen"
+int   ntoss      = 100      "number of times to iterate before the measurement starts"
+int   ncycle     = 1000     "number of times where the mean is taken over"
